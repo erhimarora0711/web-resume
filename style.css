@@ -6,7 +6,7 @@ h1.myWebResume {
     text-align: center;
 }
 
-ul.uicomponents {
+ul.resumesections {
     display: flex;
     list-style: none;
     padding: 0;
@@ -15,14 +15,28 @@ ul.uicomponents {
     background: grey;
 }
 
-ul.uicomponents li {
+ul.resumesections li {
     padding: 20px;
     margin: 0 auto;
 }
 
-ul.uicomponents li a {
+ul.resumesections li:hover {
+    color: black;
+    background: lightgrey;
+}
+
+ul.resumesections li a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
     font-size: 24px;
+}
+
+ul.resumesections li a:hover {
+    color: black;
+}
+
+.blankspace
+{
+		height:4rem;
 }
