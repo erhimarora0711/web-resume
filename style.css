@@ -1,0 +1,28 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1.myWebResume {
+    text-align: center;
+}
+
+ul.uicomponents {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    gap: 25px;
+    background: grey;
+}
+
+ul.uicomponents li {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+ul.uicomponents li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
